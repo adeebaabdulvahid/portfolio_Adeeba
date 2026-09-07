@@ -1,0 +1,402 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adeeba Abdul Vahid | Portfolio</title>
+  <meta name="description" content="Portfolio of Adeeba Abdul Vahid - CSE undergraduate skilled in Python, SQL, Flask, Power BI, and data-driven projects." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" id="nav-logo">AV</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#awards" class="nav-link">Awards</a></li>
+        <li><a href="#volunteer" class="nav-link">Volunteer</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <section id="hero">
+    <div class="hero-bg-overlay"></div>
+    <canvas id="particles-canvas"></canvas>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>Available for opportunities</span>
+      </div>
+      <h1 class="hero-name">
+        <span class="name-first">Adeeba</span>
+        <span class="name-last">Abdul Vahid</span>
+      </h1>
+      <div class="hero-typewriter">
+        <span id="typewriter-text"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-summary">
+        Computer Science &amp; Engineering undergraduate building intelligent, data-driven solutions.
+        Passionate about crafting software that turns complexity into clarity.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary" id="hero-projects-btn">View My Work</a>
+        <a href="#contact" class="btn btn-outline" id="hero-contact-btn">Get In Touch</a>
+      </div>
+      <div class="hero-scroll-hint">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card glass-card">
+          <div class="about-avatar">
+            <div class="avatar-ring"></div>
+            <div class="avatar-inner">AV</div>
+          </div>
+          <div class="about-social">
+            <a href="mailto:adeebaabdulvahid@gmail.com" class="social-link" id="social-email" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/adeeba-abdul-vahid" target="_blank" rel="noopener" class="social-link" id="social-linkedin" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="https://github.com/adeebaabdulvahid" target="_blank" rel="noopener" class="social-link" id="social-github" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="about-para">I'm <strong>Adeeba Abdul Vahid</strong>, a BTech Computer Science &amp; Engineering student at College of Engineering, Karunagappally (CGPA 7.76/10). I love building things — from web applications to interactive dashboards.</p>
+          <p class="about-para">Currently deepening my skills through a 6-month intensive Data Analytics course at <strong>Entri</strong>, covering Python, SQL, Power BI, and advanced data visualization. I bring a rare blend of technical depth and leadership experience from my active roles in IEEE, IEDC, and IIC.</p>
+          <p class="about-para">Award winner at the <strong>NASA Space Apps Challenge</strong> and a natural communicator — I've hosted events, led innovation programs, and mentored students. I believe great software is not just functional; it's impactful.</p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-target="2">0</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="6">0</span>
+              <span class="stat-label">Volunteer Roles</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="210">0</span>
+              <span class="stat-label">Students Reached</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="1">0</span>
+              <span class="stat-label">National Award</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">Technical Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category glass-card" id="skill-languages">
+          <div class="skill-cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+          <h3 class="skill-cat-title">Languages &amp; Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span><span class="skill-tag">SQL</span><span class="skill-tag">Java</span><span class="skill-tag">C</span><span class="skill-tag">Flask</span><span class="skill-tag">Git</span><span class="skill-tag">GitHub</span><span class="skill-tag">VS Code</span>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-item"><span class="skill-bar-label">Python</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div></div>
+            <div class="skill-bar-item"><span class="skill-bar-label">SQL</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
+            <div class="skill-bar-item"><span class="skill-bar-label">Flask</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div></div>
+            <div class="skill-bar-item"><span class="skill-bar-label">Java / C</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="65"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-category glass-card" id="skill-analytics">
+          <div class="skill-cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="18" y="3" width="4" height="18"/><rect x="10" y="8" width="4" height="13"/><rect x="2" y="13" width="4" height="8"/></svg></div>
+          <h3 class="skill-cat-title">Analytics &amp; BI</h3>
+          <div class="skill-tags">
+            <span class="skill-tag accent">Data Analysis</span><span class="skill-tag accent">EDA</span><span class="skill-tag accent">Power BI</span><span class="skill-tag accent">Excel</span><span class="skill-tag accent">Data Cleaning</span><span class="skill-tag accent">Visualization</span><span class="skill-tag accent">ML Basics</span>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-item"><span class="skill-bar-label">Data Analysis &amp; EDA</span><div class="skill-bar-track"><div class="skill-bar-fill accent" data-width="82"></div></div></div>
+            <div class="skill-bar-item"><span class="skill-bar-label">Power BI</span><div class="skill-bar-track"><div class="skill-bar-fill accent" data-width="78"></div></div></div>
+            <div class="skill-bar-item"><span class="skill-bar-label">Excel</span><div class="skill-bar-track"><div class="skill-bar-fill accent" data-width="80"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-category glass-card" id="skill-design">
+          <div class="skill-cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 12l4-4 4 4M12 8v8"/></svg></div>
+          <h3 class="skill-cat-title">Design &amp; Soft Skills</h3>
+          <div class="skill-tags">
+            <span class="skill-tag secondary">Canva</span><span class="skill-tag secondary">Prototyping</span><span class="skill-tag secondary">Public Speaking</span><span class="skill-tag secondary">Leadership</span><span class="skill-tag secondary">Event Management</span>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-item"><span class="skill-bar-label">Canva &amp; Design</span><div class="skill-bar-track"><div class="skill-bar-fill secondary" data-width="75"></div></div></div>
+            <div class="skill-bar-item"><span class="skill-bar-label">Leadership</span><div class="skill-bar-track"><div class="skill-bar-fill secondary" data-width="90"></div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Have Built</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card glass-card" id="project-ai-skill">
+          <div class="project-glow"></div>
+          <div class="project-header">
+            <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+            <div class="project-links">
+              <a href="https://github.com/adeebaabdulvahid" target="_blank" rel="noopener" class="project-link-btn" id="ai-skill-github" aria-label="View on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">AI Skill Gap Analyzer</h3>
+            <p class="project-desc">A web application that identifies the gap between a user's current skillset and their target career requirements, then delivers personalized career-relevant recommendations.</p>
+            <ul class="project-highlights">
+              <li>Skill-gap analysis engine using Python logic</li>
+              <li>Career-specific recommendation system</li>
+              <li>Full-stack Flask web interface</li>
+            </ul>
+            <div class="project-tech"><span class="tech-tag">Python</span><span class="tech-tag">Flask</span><span class="tech-tag">HTML/CSS</span></div>
+          </div>
+          <div class="project-number">01</div>
+        </div>
+        <div class="project-card glass-card featured" id="project-dashboard">
+          <div class="project-glow"></div>
+          <div class="project-featured-badge">Featured</div>
+          <div class="project-header">
+            <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+            <div class="project-links">
+              <a href="https://github.com/adeebaabdulvahid" target="_blank" rel="noopener" class="project-link-btn" id="dashboard-github" aria-label="View on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Retail Store Sales Performance Dashboard</h3>
+            <p class="project-desc">Comprehensive BI dashboard analyzing retail sales data to uncover revenue trends, product performance metrics, and key business KPIs — turning raw Excel data into executive-level insights.</p>
+            <ul class="project-highlights">
+              <li>Interactive Power BI dashboard with drill-through filters</li>
+              <li>Revenue trend analysis and KPI tracking</li>
+              <li>Excel data transformation and cleaning pipeline</li>
+              <li>Product performance segmentation</li>
+            </ul>
+            <div class="project-tech"><span class="tech-tag">Power BI</span><span class="tech-tag">Excel</span><span class="tech-tag">Data Analysis</span><span class="tech-tag">DAX</span></div>
+          </div>
+          <div class="project-number">02</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Learning Journey</span>
+        <h2 class="section-title">Education &amp; Training</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item" id="edu-btech">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-meta">
+              <span class="timeline-date">Aug 2023 &ndash; Present</span>
+              <span class="timeline-badge ongoing">Ongoing</span>
+            </div>
+            <h3 class="timeline-title">BTech in Computer Science &amp; Engineering</h3>
+            <p class="timeline-org">College of Engineering, Karunagappally</p>
+            <p class="timeline-detail">CGPA: <strong>7.76 / 10</strong></p>
+            <div class="timeline-tags"><span>DSA</span><span>DBMS</span><span>OS</span><span>Networks</span><span>Web Dev</span></div>
+          </div>
+        </div>
+        <div class="timeline-item" id="edu-entri">
+          <div class="timeline-dot accent-dot"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-meta">
+              <span class="timeline-date">6 Months, Ongoing</span>
+              <span class="timeline-badge training">Training</span>
+            </div>
+            <h3 class="timeline-title">Data Analytics Course</h3>
+            <p class="timeline-org">Entri &mdash; Professional Development</p>
+            <p class="timeline-detail">Hands-on training in Python, SQL, Excel, Power BI, data cleaning, EDA, and data visualization.</p>
+            <div class="timeline-tags"><span>Python</span><span>SQL</span><span>Power BI</span><span>EDA</span><span>Excel</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="awards" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Recognition</span>
+        <h2 class="section-title">Awards</h2>
+      </div>
+      <div class="awards-grid">
+        <div class="award-card glass-card" id="award-nasa">
+          <div class="award-shimmer"></div>
+          <div class="award-icon">&#127942;</div>
+          <div class="award-body">
+            <h3 class="award-title">Best Use of Data Award</h3>
+            <p class="award-event">NASA Space Apps Challenge</p>
+            <p class="award-host">Hosted at Amrita College</p>
+            <p class="award-detail">Secured the <strong>Best Use of Data Award</strong> among <strong>14 competing teams</strong> at the globally-recognized NASA Space Apps hackathon, demonstrating exceptional data interpretation and storytelling skills.</p>
+          </div>
+          <div class="award-ribbon">&#128640; NASA</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="volunteer" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Leadership &amp; Impact</span>
+        <h2 class="section-title">Volunteer Experience</h2>
+      </div>
+      <div class="volunteer-grid">
+        <div class="volunteer-card glass-card" id="vol-ieee">
+          <div class="vol-icon-wrap ieee"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <div class="vol-content">
+            <div class="vol-period">2025 &ndash; 2026</div>
+            <h3 class="vol-title">PES &amp; PELS Secretary | WIP Representative</h3>
+            <p class="vol-org">IEEE SBCEK</p>
+            <p class="vol-desc">Coordinated technical programs, student activities, and professional development initiatives for the student branch.</p>
+          </div>
+        </div>
+        <div class="volunteer-card glass-card" id="vol-iedc">
+          <div class="vol-icon-wrap iedc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+          <div class="vol-content">
+            <div class="vol-period">2024 &ndash; 2025</div>
+            <h3 class="vol-title">Women Innovation Lead</h3>
+            <p class="vol-org">IEDC, CEK</p>
+            <p class="vol-desc">Led women-focused innovation and entrepreneurship initiatives, empowering students to explore tech-driven ventures.</p>
+          </div>
+        </div>
+        <div class="volunteer-card glass-card" id="vol-iic">
+          <div class="vol-icon-wrap iic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+          <div class="vol-content">
+            <div class="vol-period">2024 &ndash; 2025</div>
+            <h3 class="vol-title">IPR Lead</h3>
+            <p class="vol-org">IIC, CEK</p>
+            <p class="vol-desc">Promoted Intellectual Property Rights awareness and supported innovation-focused activities across campus.</p>
+          </div>
+        </div>
+        <div class="volunteer-card glass-card" id="vol-geosync">
+          <div class="vol-icon-wrap geosync"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+          <div class="vol-content">
+            <div class="vol-period">IEEE SBCEK</div>
+            <h3 class="vol-title">Technical Team Member</h3>
+            <p class="vol-org">GEOSYNC Robotics &amp; IoT Outreach</p>
+            <p class="vol-desc">Supported a 3-day outreach program engaging <strong>210 school students</strong> and 5 volunteer teams; coordinated all technical activities and logistics.</p>
+          </div>
+        </div>
+        <div class="volunteer-card glass-card" id="vol-nuclear">
+          <div class="vol-icon-wrap nuclear"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+          <div class="vol-content">
+            <div class="vol-period">Tamil Nadu</div>
+            <h3 class="vol-title">Event Coordinator</h3>
+            <p class="vol-org">Kudankulam Nuclear Power Plant Visit</p>
+            <p class="vol-desc">Coordinated an educational industrial visit for <strong>50 students</strong>, managing participant arrangements and logistics for a significant technical excursion.</p>
+          </div>
+        </div>
+        <div class="volunteer-card glass-card" id="vol-mc">
+          <div class="vol-icon-wrap mc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
+          <div class="vol-content">
+            <div class="vol-period">IHRD Conclave</div>
+            <h3 class="vol-title">Master of Ceremonies</h3>
+            <p class="vol-org">IHRD Conclave</p>
+            <p class="vol-desc">Hosted "Generative AI and Future of Education 3.0" &mdash; coordinated event flow, managed speakers, and ensured seamless program execution.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="languages" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Communication</span>
+        <h2 class="section-title">Languages</h2>
+      </div>
+      <div class="languages-grid">
+        <div class="lang-card glass-card" id="lang-english"><div class="lang-flag">&#127468;&#127463;</div><div class="lang-name">English</div><div class="lang-level">Fluent</div></div>
+        <div class="lang-card glass-card" id="lang-malayalam"><div class="lang-flag">&#127470;&#127475;</div><div class="lang-name">Malayalam</div><div class="lang-level">Native</div></div>
+        <div class="lang-card glass-card" id="lang-hindi"><div class="lang-flag">&#127470;&#127475;</div><div class="lang-name">Hindi</div><div class="lang-level">Proficient</div></div>
+        <div class="lang-card glass-card" id="lang-tamil"><div class="lang-flag">&#127470;&#127475;</div><div class="lang-name">Tamil</div><div class="lang-level">Conversational</div></div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let Us Connect</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">I am actively looking for opportunities where I can grow, contribute, and make an impact. Let us talk!</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a href="mailto:adeebaabdulvahid@gmail.com" class="contact-item glass-card" id="contact-email">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div><div class="contact-label">Email</div><div class="contact-value">adeebaabdulvahid@gmail.com</div></div>
+          </a>
+          <a href="https://linkedin.com/in/adeeba-abdul-vahid" target="_blank" rel="noopener" class="contact-item glass-card" id="contact-linkedin">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></div>
+            <div><div class="contact-label">LinkedIn</div><div class="contact-value">linkedin.com/in/adeeba-abdul-vahid</div></div>
+          </a>
+          <a href="https://github.com/adeebaabdulvahid" target="_blank" rel="noopener" class="contact-item glass-card" id="contact-github">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg></div>
+            <div><div class="contact-label">GitHub</div><div class="contact-value">github.com/adeebaabdulvahid</div></div>
+          </a>
+        </div>
+        <div class="contact-form glass-card" id="contact-form-card">
+          <h3 class="form-title">Send a Message</h3>
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="form-name">Your Name</label>
+              <input type="text" id="form-name" name="name" placeholder="e.g. Jane Smith" autocomplete="name" required />
+            </div>
+            <div class="form-group">
+              <label for="form-email">Email Address</label>
+              <input type="email" id="form-email" name="email" placeholder="jane@company.com" autocomplete="email" required />
+            </div>
+            <div class="form-group">
+              <label for="form-message">Message</label>
+              <textarea id="form-message" name="message" rows="4" placeholder="I would love to discuss an opportunity with you..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary full-width" id="form-submit-btn">Send Message</button>
+            <div id="form-success" class="form-success" hidden>Thanks for reaching out! I will get back to you soon.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">2026 Adeeba Abdul Vahid. Crafted with love and lots of Python.</p>
+      <div class="footer-links">
+        <a href="mailto:adeebaabdulvahid@gmail.com" id="footer-email">Email</a>
+        <a href="https://linkedin.com/in/adeeba-abdul-vahid" target="_blank" rel="noopener" id="footer-linkedin">LinkedIn</a>
+        <a href="https://github.com/adeebaabdulvahid" target="_blank" rel="noopener" id="footer-github">GitHub</a>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

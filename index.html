@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Adeeba Abdul Vahid | Portfolio</title>
-  <meta name="description" content="Portfolio of Adeeba Abdul Vahid - CSE undergraduate skilled in Python, SQL, Flask, Power BI, and data-driven projects." />
+  <meta name="description" content="Portfolio of Adeeba Abdul Vahid - CSE undergraduate skilled in Data Analytics, Power BI, SQL, Python, and Software Development." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -129,7 +129,7 @@
           </div>
         </div>
         <div class="about-text">
-          <p class="about-para">I'm <strong>Adeeba Abdul Vahid</strong>, a BTech Computer Science &amp; Engineering student at College of Engineering, Karunagappally (CGPA 7.75/10). I love building things — from web applications to interactive dashboards.</p>
+          <p class="about-para">I'm <strong>Adeeba Abdul Vahid</strong>, a BTech Computer Science &amp; Engineering student at College of Engineering, Karunagappally (CGPA 7.75/10). I love building data-driven solutions and interactive analytics dashboards.</p>
           <p class="about-para">Currently deepening my skills through a 6-month intensive Data Analytics course at <strong>Entri</strong>, covering Python, SQL, Power BI, and advanced data visualization. I bring a rare blend of technical depth and leadership experience from my active roles in IEEE, IEDC, and IIC.</p>
           <p class="about-para">Award winner at the <strong>NASA Space Apps Challenge</strong> and a natural communicator — I've hosted events, led innovation programs, and mentored students. I believe great software is not just functional; it's impactful.</p>
           <div class="about-stats">
@@ -211,35 +211,35 @@
       </div>
       <div class="projects-grid">
 
-        <!-- 01 · AI Skill Gap Analyzer (existing) -->
-        <div class="project-card glass-card" id="project-ai-skill">
+        <!-- 01 · Weather API & Weather Dashboard -->
+        <div class="project-card glass-card" id="project-weather">
           <div class="project-glow"></div>
           <div class="project-img-wrap">
-            <div class="project-img-placeholder">🤖</div>
-            <span class="project-category-badge web">Web App</span>
+            <img src="assets/weather_analytics_dashboard.png" alt="Weather Analytics Dashboard" onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>🌤️</div><span class=\'project-category-badge bi\'>Power BI</span>'" />
+            <span class="project-category-badge bi">Power BI</span>
           </div>
           <div class="project-header">
-            <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+            <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
             <div class="project-links">
-              <a href="https://github.com/adeebaabdulvahid" target="_blank" rel="noopener" class="project-link-btn" id="ai-skill-github" aria-label="View on GitHub">
+              <a href="https://github.com/adeebaabdulvahid/Weather_Dashboard" target="_blank" rel="noopener" class="project-link-btn" aria-label="View on GitHub">
                 <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
               </a>
             </div>
           </div>
           <div class="project-body">
-            <h3 class="project-title">AI Skill Gap Analyzer</h3>
-            <p class="project-desc">A web application that identifies the gap between a user's current skillset and their target career requirements, then delivers personalized career-relevant recommendations.</p>
+            <h3 class="project-title">Weather API &amp; Weather Dashboard</h3>
+            <p class="project-desc">Real-time weather analytics Power BI dashboard showing temperature forecasts, air quality index (AQI), humidity, wind speed, UV index, precipitation chance, and sunrise/sunset times across multiple cities.</p>
             <ul class="project-highlights">
-              <li>Skill-gap analysis engine using Python logic</li>
-              <li>Career-specific recommendation system</li>
-              <li>Full-stack Flask web interface</li>
+              <li>Live weather feed integration (Canada, Frascati, London)</li>
+              <li>AQI monitor: PM10, CO, O3, NO2, PM2.5, SO2</li>
+              <li>7-day avg temp forecast &amp; chance of rain chart</li>
             </ul>
-            <div class="project-tech"><span class="tech-tag">Python</span><span class="tech-tag">Flask</span><span class="tech-tag">HTML/CSS</span></div>
+            <div class="project-tech"><span class="tech-tag">Power BI</span><span class="tech-tag">Weather API</span><span class="tech-tag">DAX</span><span class="tech-tag">Data Viz</span></div>
           </div>
           <div class="project-number">01</div>
         </div>
 
-        <!-- 02 · Retail Stores Sales Dashboard (existing — now with image) -->
+        <!-- 02 · Power BI – Retail Store Sales Performance Dashboard -->
         <div class="project-card glass-card featured" id="project-retail-dashboard">
           <div class="project-glow"></div>
           <div class="project-featured-badge">Featured</div>
@@ -256,7 +256,7 @@
             </div>
           </div>
           <div class="project-body">
-            <h3 class="project-title">Retail Stores Sales Performance Dashboard</h3>
+            <h3 class="project-title">Power BI &ndash; Retail Store Sales Performance Dashboard</h3>
             <p class="project-desc">Comprehensive BI dashboard analyzing retail sales across multiple locations — tracking 303K+ total sales, 2K transactions, and 13K units sold with KPI cards and interactive drill-throughs.</p>
             <ul class="project-highlights">
               <li>KPI cards: Total Sales, Transactions, Quantity, Customers</li>
@@ -268,91 +268,7 @@
           <div class="project-number">02</div>
         </div>
 
-        <!-- 03 · Sales Data Analysis Power BI (NEW) -->
-        <div class="project-card glass-card" id="project-sales-analysis">
-          <div class="project-glow"></div>
-          <div class="project-img-wrap">
-            <img src="assets/sales_data_analysis.png" alt="Sales Data Analysis Power BI Dashboard" onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>📈</div><span class=\'project-category-badge bi\'>Power BI</span>'" />
-            <span class="project-category-badge bi">Power BI</span>
-          </div>
-          <div class="project-header">
-            <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
-            <div class="project-links">
-              <a href="https://github.com/adeebaabdulvahid/Sales-Data-Analysis-PowerBI" target="_blank" rel="noopener" class="project-link-btn" aria-label="View on GitHub">
-                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
-              </a>
-            </div>
-          </div>
-          <div class="project-body">
-            <h3 class="project-title">Sales Data Analysis Dashboard</h3>
-            <p class="project-desc">Power BI dashboard revealing profit trends from 1990–2020, regional order distribution by pie chart, and top 5 trending products — total profit of 5M highlighted as a headline KPI.</p>
-            <ul class="project-highlights">
-              <li>Profit trend line chart spanning 30 years of data</li>
-              <li>Order distribution by region (East, West, South, Central)</li>
-              <li>Top 5 trending products bar chart (Laptop, Monitor, Bookshelf…)</li>
-            </ul>
-            <div class="project-tech"><span class="tech-tag">Power BI</span><span class="tech-tag">DAX</span><span class="tech-tag">Data Analysis</span><span class="tech-tag">Excel</span></div>
-          </div>
-          <div class="project-number">03</div>
-        </div>
-
-        <!-- 04 · E-Commerce Sales Analysis (NEW) -->
-        <div class="project-card glass-card" id="project-ecommerce-dashboard">
-          <div class="project-glow"></div>
-          <div class="project-img-wrap">
-            <img src="assets/ecommerce_sales_analysis.png" alt="E-Commerce Sales Analysis Dashboard" onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>🛒</div><span class=\'project-category-badge bi\'>Power BI</span>'" />
-            <span class="project-category-badge bi">Power BI</span>
-          </div>
-          <div class="project-header">
-            <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></div>
-            <div class="project-links">
-              <a href="https://github.com/adeebaabdulvahid/ecommerce-customer-churn-analysis-mysql" target="_blank" rel="noopener" class="project-link-btn" aria-label="View on GitHub">
-                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
-              </a>
-            </div>
-          </div>
-          <div class="project-body">
-            <h3 class="project-title">E-Commerce Sales Analysis Dashboard</h3>
-            <p class="project-desc">Multi-page Power BI dashboard for e-commerce performance — tracking 432K total sales amount, 436K sales target, monthly trends, and profit/loss by sub-category across clothing, electronics and furniture.</p>
-            <ul class="project-highlights">
-              <li>Monthly sales trend &amp; target comparison</li>
-              <li>Profit by sub-category (clothing, electronics, furniture)</li>
-              <li>Order count analysis for states with MySQL backend</li>
-            </ul>
-            <div class="project-tech"><span class="tech-tag">Power BI</span><span class="tech-tag">MySQL</span><span class="tech-tag">DAX</span><span class="tech-tag">Data Cleaning</span></div>
-          </div>
-          <div class="project-number">04</div>
-        </div>
-
-        <!-- 05 · Weather Analytics Dashboard (NEW) -->
-        <div class="project-card glass-card" id="project-weather">
-          <div class="project-glow"></div>
-          <div class="project-img-wrap">
-            <img src="assets/weather_analytics_dashboard.png" alt="Weather Analytics Dashboard" onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>🌤️</div><span class=\'project-category-badge bi\'>Power BI</span>'" />
-            <span class="project-category-badge bi">Power BI</span>
-          </div>
-          <div class="project-header">
-            <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
-            <div class="project-links">
-              <a href="https://github.com/adeebaabdulvahid/Weather_Dashboard" target="_blank" rel="noopener" class="project-link-btn" aria-label="View on GitHub">
-                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
-              </a>
-            </div>
-          </div>
-          <div class="project-body">
-            <h3 class="project-title">Weather Analytics Dashboard</h3>
-            <p class="project-desc">Real-time weather analytics Power BI dashboard showing temperature forecasts, air quality index (AQI), humidity, wind speed, UV index, precipitation chance, and sunrise/sunset times across multiple cities.</p>
-            <ul class="project-highlights">
-              <li>Live weather feed integration (Canada, Frascati, London)</li>
-              <li>AQI monitor: PM10, CO, O3, NO2, PM2.5, SO2</li>
-              <li>7-day avg temp forecast &amp; chance of rain chart</li>
-            </ul>
-            <div class="project-tech"><span class="tech-tag">Power BI</span><span class="tech-tag">Weather API</span><span class="tech-tag">DAX</span><span class="tech-tag">Data Viz</span></div>
-          </div>
-          <div class="project-number">05</div>
-        </div>
-
-        <!-- 06 · Spotify Top 50 Dashboard (NEW) -->
+        <!-- 03 · Spotify Project -->
         <div class="project-card glass-card" id="project-spotify">
           <div class="project-glow"></div>
           <div class="project-img-wrap">
@@ -377,10 +293,94 @@
             </ul>
             <div class="project-tech"><span class="tech-tag">Power BI</span><span class="tech-tag">Spotify API</span><span class="tech-tag">DAX</span><span class="tech-tag">Data Modeling</span></div>
           </div>
+          <div class="project-number">03</div>
+        </div>
+
+        <!-- 04 · AI Skill Gap Analyzer -->
+        <div class="project-card glass-card" id="project-ai-skill">
+          <div class="project-glow"></div>
+          <div class="project-img-wrap">
+            <div class="project-img-placeholder">🤖</div>
+            <span class="project-category-badge web">Web App</span>
+          </div>
+          <div class="project-header">
+            <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+            <div class="project-links">
+              <a href="https://github.com/adeebaabdulvahid" target="_blank" rel="noopener" class="project-link-btn" id="ai-skill-github" aria-label="View on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">AI Skill Gap Analyzer</h3>
+            <p class="project-desc">A web application that identifies the gap between a user's current skillset and their target career requirements, then delivers personalized career-relevant recommendations.</p>
+            <ul class="project-highlights">
+              <li>Skill-gap analysis engine using Python logic</li>
+              <li>Career-specific recommendation system</li>
+              <li>Full-stack Flask web interface</li>
+            </ul>
+            <div class="project-tech"><span class="tech-tag">Python</span><span class="tech-tag">Flask</span><span class="tech-tag">HTML/CSS</span></div>
+          </div>
+          <div class="project-number">04</div>
+        </div>
+
+        <!-- 05 · Sales Data Analysis Power BI -->
+        <div class="project-card glass-card" id="project-sales-analysis">
+          <div class="project-glow"></div>
+          <div class="project-img-wrap">
+            <img src="assets/sales_data_analysis.png" alt="Sales Data Analysis Power BI Dashboard" onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>📈</div><span class=\'project-category-badge bi\'>Power BI</span>'" />
+            <span class="project-category-badge bi">Power BI</span>
+          </div>
+          <div class="project-header">
+            <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+            <div class="project-links">
+              <a href="https://github.com/adeebaabdulvahid/Sales-Data-Analysis-PowerBI" target="_blank" rel="noopener" class="project-link-btn" aria-label="View on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Sales Data Analysis Dashboard</h3>
+            <p class="project-desc">Power BI dashboard revealing profit trends from 1990–2020, regional order distribution by pie chart, and top 5 trending products — total profit of 5M highlighted as a headline KPI.</p>
+            <ul class="project-highlights">
+              <li>Profit trend line chart spanning 30 years of data</li>
+              <li>Order distribution by region (East, West, South, Central)</li>
+              <li>Top 5 trending products bar chart (Laptop, Monitor, Bookshelf…)</li>
+            </ul>
+            <div class="project-tech"><span class="tech-tag">Power BI</span><span class="tech-tag">DAX</span><span class="tech-tag">Data Analysis</span><span class="tech-tag">Excel</span></div>
+          </div>
+          <div class="project-number">05</div>
+        </div>
+
+        <!-- 06 · E-Commerce Sales Analysis Dashboard -->
+        <div class="project-card glass-card" id="project-ecommerce-dashboard">
+          <div class="project-glow"></div>
+          <div class="project-img-wrap">
+            <img src="assets/ecommerce_sales_analysis.png" alt="E-Commerce Sales Analysis Dashboard" onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>🛒</div><span class=\'project-category-badge bi\'>Power BI</span>'" />
+            <span class="project-category-badge bi">Power BI</span>
+          </div>
+          <div class="project-header">
+            <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></div>
+            <div class="project-links">
+              <a href="https://github.com/adeebaabdulvahid/ecommerce-customer-churn-analysis-mysql" target="_blank" rel="noopener" class="project-link-btn" aria-label="View on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">E-Commerce Sales Analysis Dashboard</h3>
+            <p class="project-desc">Multi-page Power BI dashboard for e-commerce performance — tracking 432K total sales amount, 436K sales target, monthly trends, and profit/loss by sub-category across clothing, electronics and furniture.</p>
+            <ul class="project-highlights">
+              <li>Monthly sales trend &amp; target comparison</li>
+              <li>Profit by sub-category (clothing, electronics, furniture)</li>
+              <li>Order count analysis for states with MySQL backend</li>
+            </ul>
+            <div class="project-tech"><span class="tech-tag">Power BI</span><span class="tech-tag">MySQL</span><span class="tech-tag">DAX</span><span class="tech-tag">Data Cleaning</span></div>
+          </div>
           <div class="project-number">06</div>
         </div>
 
-        <!-- 07 · Blockchain Voting System (NEW) -->
+        <!-- 07 · Blockchain Voting System -->
         <div class="project-card glass-card" id="project-blockchain">
           <div class="project-glow"></div>
           <div class="project-img-wrap">
@@ -408,7 +408,7 @@
           <div class="project-number">07</div>
         </div>
 
-        <!-- 08 · Python Data Analysis (NEW) -->
+        <!-- 08 · Python Data Analysis -->
         <div class="project-card glass-card" id="project-python-da">
           <div class="project-glow"></div>
           <div class="project-img-wrap">
@@ -622,7 +622,7 @@
   </section>
   <footer id="footer">
     <div class="container footer-inner">
-      <p class="footer-copy">2026 Adeeba Abdul Vahid. Crafted with love and lots of Python.</p>
+      <p class="footer-copy">2026 Adeeba Abdul Vahid. Crafted with dedication to data analytics and software development.</p>
       <div class="footer-links">
         <a href="mailto:adeebaabdulvahid@gmail.com" id="footer-email">Email</a>
         <a href="https://linkedin.com/in/adeeba-abdul-vahid" target="_blank" rel="noopener" id="footer-linkedin">LinkedIn</a>

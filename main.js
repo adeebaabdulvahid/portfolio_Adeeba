@@ -1,4 +1,4 @@
-﻿// ===== NAVBAR SCROLL =====
+// ===== NAVBAR SCROLL =====
 const navbar = document.getElementById("navbar");
 const navLinks = document.querySelectorAll(".nav-link");
 
@@ -100,7 +100,7 @@ animateParticles();
 // ===== TYPEWRITER =====
 const phrases = [
   "Software Developer in Training",
-  "Python & Flask Developer",
+  "Data Analyst & Software Developer",
   "Data Analytics Enthusiast",
   "Power BI Dashboard Builder",
   "NASA Space Apps Award Winner",
